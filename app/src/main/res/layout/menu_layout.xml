@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="#f1b2b2"
+              android:layout_height="40dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="菜单"
+        android:textColor="#f7f5f5"
+        android:background="@null"
+        android:textSize="17sp"
+        android:layout_marginLeft="3dp"
+        android:drawableLeft="@mipmap/menu_back"
+        android:id="@+id/menu_back"
+        />
+
+</LinearLayout>

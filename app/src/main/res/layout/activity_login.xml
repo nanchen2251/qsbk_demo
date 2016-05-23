@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nanchen.qsbk_demo.Mine.LoginActivity">
+    
+
+    <include layout="@layout/menu_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="——————  使用合作帐号登录/注册  ——————"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#22d9dc"
+        android:text="使用QQ帐号"
+        android:gravity="center"
+        android:id="@+id/use_qq_login"
+        android:drawableLeft="@mipmap/share_qq"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:textColor="#f7f5f5"
+        />
+
+    <Button
+        android:id="@+id/use_wx_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#51ef56"
+        android:text="使用微信帐号"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/share_wx_py"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:textColor="#f7f5f5"
+        />
+
+
+    <Button
+        android:id="@+id/use_sina_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#dc4d22"
+        android:text="使用微博帐号"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/share_sina"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:textColor="#f7f5f5"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="——————  使用糗百帐号登录/注册  ——————"/>
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edit_account"
+        android:hint="邮箱/昵称"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edit_pwd"
+        android:hint="密码"
+        android:textSize="17sp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#2a972e"
+        android:text="登  录"
+        android:id="@+id/login"
+        android:gravity="center"
+        android:layout_height="45dp"
+        android:textSize="17sp"
+        android:textColor="#f7f5f5"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:id="@+id/forgot_pwd"
+            android:textSize="17sp"
+            android:textColor="#a3a3a3"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textSize="17sp"
+            android:background="@null"
+            android:textColor="#a3a3a3"
+            android:id="@+id/regist"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
